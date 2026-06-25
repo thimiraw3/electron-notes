@@ -22,7 +22,7 @@
   "build": {
     "appId": "com.lynx.electronnotes",
     "productName": "ElectronNotes",
-    "publish": { "provider": "github", "owner": "thimira", "repo": "electron-notes" },
+    "publish": { "provider": "github", "owner": "thimiraw3", "repo": "electron-notes" },
     "mac": { "target": "dmg", "icon": "resources/icon.icns" },
     "win": { "target": "nsis", "icon": "resources/icon.ico" },
     "linux": { "target": "AppImage", "icon": "resources/icon.png" }
