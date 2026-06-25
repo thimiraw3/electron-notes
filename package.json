@@ -1,6 +1,6 @@
 {
   "name": "electron-notes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Electron application with React",
   "main": "./out/main/index.js",
   "author": "thimira",
@@ -22,10 +22,23 @@
   "build": {
     "appId": "com.lynx.electronnotes",
     "productName": "ElectronNotes",
-    "publish": { "provider": "github", "owner": "thimiraw3", "repo": "electron-notes" },
-    "mac": { "target": "dmg", "icon": "resources/icon.icns" },
-    "win": { "target": "nsis", "icon": "resources/icon.ico" },
-    "linux": { "target": "AppImage", "icon": "resources/icon.png" }
+    "publish": {
+      "provider": "github",
+      "owner": "thimiraw3",
+      "repo": "electron-notes"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "resources/icon.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "resources/icon.ico"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "resources/icon.png"
+    }
   },
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.2",
